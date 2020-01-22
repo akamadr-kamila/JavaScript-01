@@ -1,0 +1,36 @@
+{
+  "name": "fed_es6_workshops",
+  "version": "1.0.0",
+  "description": "Warsztaty z magicznego JS",
+  "main": "./index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot -d --env.ex=$ZADANIE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skurzynowski/FED_ES6_WORKSHOPS.git"
+  },
+  "keywords": [
+    "es6",
+    "js"
+  ],
+  "author": "Sebastian i Robert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skurzynowski/FED_ES6_WORKSHOPS/issues"
+  },
+  "homepage": "https://github.com/skurzynowski/FED_ES6_WORKSHOPS#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}
